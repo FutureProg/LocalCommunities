@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalCommunity</string>
+    <string name="action_settings">Preféré</string>
+    <string name="community_actionbar_title">Communautés</string>
+    <string name="enable">permettre</string>
+    <string name="cancel">annuler</string>
+    <string name="location_disabled">permettez l\'endroit</string>
+    <string name="location_disabled_message">Pour utiliser cette application vous devez permetter l\'endroit</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="disable">désactiver</string>
+</resources>

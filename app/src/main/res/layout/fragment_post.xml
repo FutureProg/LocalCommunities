@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <nick.com.localcommunity.UtilityViews.SquareImageView
+        android:id="@+id/post_img"
+        android:layout_weight="1.0"
+        android:layout_width="0dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/post_content"
+        android:layout_weight="1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/post_title"
+            android:text="lorem ipsum"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/post_preview_text"
+            android:text="lorem ipsum"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-regular"
+            android:maxLines="2"
+            android:ellipsize="end"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+    </LinearLayout>
+
+</LinearLayout>
